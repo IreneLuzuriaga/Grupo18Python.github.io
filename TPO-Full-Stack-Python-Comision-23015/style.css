@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #e8e8ba;
+    /* el display va en el padre  */
+    display: flex;         
+    align-items: center;
+}
+
+.nav-img{
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 30px;
+    color: orangered;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 10px;
+}
