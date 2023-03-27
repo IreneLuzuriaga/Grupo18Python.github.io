@@ -11,9 +11,12 @@
 }
 
 .nav-img{
+    height: 100px;
+    width: 22%;
     padding: 10px;
 }
 .nav-link{
+    width: 18%;
     text-decoration: none;
     padding: 30px;
     color: orangered;
@@ -24,4 +27,19 @@
     background-color: white;
     color: orangered;
     border-radius: 10px;
+}
+
+.sec1{
+    height: 200px;
+    background-color: rgb(223, 204, 145);
+}
+
+.sec2{
+    height: 200px;
+    background-color: rgb(231, 159, 91);
+}
+
+.sec3{
+    height: 200px;
+    background-color: rgb(207, 116, 93);
 }
