@@ -43,3 +43,62 @@
     height: 200px;
     background-color: rgb(207, 116, 93);
 }
+
+.contact {
+  font-size: 30px;
+  background-color: rgb(244, 164, 110);
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  margin: 30%;
+  margin-top: 2%;
+  margin-bottom: 0px;
+}
+
+#name,
+#lastn,
+#email,
+#location,
+#text {
+  padding-top: 20%;
+  border-color: rgb(133, 35, 35);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  width: 600px;
+}
+
+#sub {
+  color: white;
+  font-weight: 600;
+  padding-top: 20%;
+  border-color: rgb(133, 35, 35);
+  border-radius: 10px;
+  background-color: rgb(158, 97, 41);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+::placeholder {
+  padding-left: 3%;
+}
+
+#sec4 {
+  font-size: 20px;
+  height:auto;
+  background-color: rgb(208, 141, 59);
+ 
+}
+
+.adress {
+    margin-top: 100px;
+    font-size: 30px;
+    list-style: none;  
+    font-style: italic;
+    float: left;
+   
+}
