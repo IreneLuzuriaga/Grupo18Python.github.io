@@ -129,3 +129,18 @@ textarea {
 .productos {
   background-color: rgb(223, 204, 145);
 }
+
+/* Personalizacion de seccion 1 */
+ .sec1 {
+     width: 50%;
+     
+ }
+/* Fin personalizacion seccion 1 */
+
+
+
+/* Personalizacion de seccion 2 */
+.sec2 {
+  width: 50%;
+}
+/* Fin personalizacion seccion 2 */
