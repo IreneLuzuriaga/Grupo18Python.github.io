@@ -4,7 +4,7 @@
 }
 
 .nav {
-  background-color: #e8e8ba;
+  background-color: #e0d56e;
   /* el display va en el padre  */
   display: flex;
   align-items: center;
@@ -19,26 +19,71 @@
   width: 18%;
   text-decoration: none;
   padding: 30px;
-  color: orangered;
+  color: rgb(109, 75, 2);
   font-size: 20px;
 }
 
 .nav-link:hover {
-  background-color: white;
-  color: orangered;
+  background-color: rgb(236, 235, 192);
+  color: rgb(109, 75, 2);
   border-radius: 10px;
 }
-
+/* personalizacion seccion1 */
 .sec1 {
-  height: 25vh;
-  background-color: rgb(223, 204, 145);
+  background-color: rgb(234, 236, 197);
+  display: flex;
+  align-items: center;
+}
+.sec1-image-container{
+  width: 50%;
+}
+.sec1-image{
+  width: 90%;
+  max-height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px black;
+}
+.sec1-texto{
+  width: 50%;
+  padding: 20px;
 }
 
+.sec1-texto-title{
+  padding-bottom: 15spx;
+  font-size: 35px;
+  color: #b68314;
+}
+
+/* fin personalizacion seccion 1 */
+
+/* seccion2 */
 .sec2 {
-  height: 25vh;
-  background-color: rgb(231, 159, 91);
+  background-color: rgb(234, 236, 197);
+  display: flex;
+  align-items: center;
+}
+.sec2-image-container{
+  width: 50%;
+}
+.sec2-image{
+  width: 90%;
+  max-height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px black;
+}
+.sec2-texto{
+  width: 50%;
+  padding: 20px;
+}
+.sec2-texto-title{
+  padding-bottom: 15spx;
+  font-size: 35px;
+  color: #b68314;
 }
 
+/* fin seccion 2 */
 .sec3 {
   height: 25vh;
   background-color: rgb(207, 116, 93);
@@ -130,17 +175,3 @@ textarea {
   background-color: rgb(223, 204, 145);
 }
 
-/* Personalizacion de seccion 1 */
- .sec1 {
-     width: 50%;
-     
- }
-/* Fin personalizacion seccion 1 */
-
-
-
-/* Personalizacion de seccion 2 */
-.sec2 {
-  width: 50%;
-}
-/* Fin personalizacion seccion 2 */
