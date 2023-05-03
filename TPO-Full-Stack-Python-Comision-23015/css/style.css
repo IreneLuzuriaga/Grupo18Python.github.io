@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -30,7 +32,6 @@
 }
 /* personalizacion seccion1 */
 .sec1 {
-  background-color: rgb(234, 236, 197);
   display: flex;
   align-items: center;
 }
@@ -41,16 +42,18 @@
   width: 90%;
   max-height: 300px;
   margin: 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 1px black;
+  /* border-radius: 10px; */
+  box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
 }
 .sec1-texto{
   width: 50%;
-  padding: 20px;
+  padding: 0px 40px 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14.7px;
 }
 
 .sec1-texto-title{
-  padding-bottom: 15spx;
+  padding-bottom: 10px;
   font-size: 35px;
   color: #b68314;
 }
@@ -59,7 +62,6 @@
 
 /* seccion2 */
 .sec2 {
-  background-color: rgb(234, 236, 197);
   display: flex;
   align-items: center;
 }
@@ -70,15 +72,17 @@
   width: 90%;
   max-height: 300px;
   margin: 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 1px black;
+  /* border-radius: 10px; */
+  box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
 }
 .sec2-texto{
   width: 50%;
-  padding: 20px;
+  padding: 0px 40px 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14.5px;
 }
 .sec2-texto-title{
-  padding-bottom: 15spx;
+  padding-bottom: 10px;
   font-size: 35px;
   color: #b68314;
 }
