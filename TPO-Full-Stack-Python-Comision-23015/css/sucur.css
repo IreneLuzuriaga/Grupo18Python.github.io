@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+
+.dataadress{
+    display: flex;
+}
+
+.container-dataadress{
+    width: 50%;
+}
+
+.container-map{
+    width: 50%;
+}
