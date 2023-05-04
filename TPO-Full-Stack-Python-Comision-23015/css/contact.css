@@ -16,7 +16,7 @@
   height: fit-content;
 }
 
-.container-grid-header {
+/* .container-grid-header {
   display: grid;
   grid-column: 1 / 6;
   grid-row: 1 / 2;
@@ -25,7 +25,7 @@
 .nav {
   display: grid;
   background-color: #e8e8ba;
-  /* border: 5px solid rgb(238, 252, 209); */
+  border: 5px solid rgb(238, 252, 209);
   align-items: center;
 }
 
@@ -57,7 +57,7 @@
   background-color: white;
   color: orangered;
   border-radius: 10px;
-}
+} */
 /* DESDE ACA CONTACTO */
 
 .container-grid-main {

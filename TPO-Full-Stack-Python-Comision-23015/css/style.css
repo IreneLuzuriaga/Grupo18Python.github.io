@@ -5,99 +5,36 @@
   box-sizing: border-box;
 }
 
-.nav {
-  background-color: #e0d56e;
-  /* el display va en el padre  */
-  display: flex;
-  align-items: center;
-}
-
-.nav-img {
-  height: 100px;
-  width: 22%;
-  padding: 10px;
-}
-.nav-link {
-  width: 18%;
-  text-decoration: none;
-  padding: 30px;
-  color: rgb(109, 75, 2);
-  font-size: 20px;
-}
-
-.nav-link:hover {
-  background-color: rgb(236, 235, 192);
-  color: rgb(109, 75, 2);
-  border-radius: 10px;
-}
 /* personalizacion seccion1 */
-.sec1 {
+.sec {
   display: flex;
-  align-items: center;
-}
-.sec1-image-container{
-  width: 50%;
-}
-.sec1-image{
-  width: 90%;
-  max-height: 300px;
-  margin: 20px;
-  /* border-radius: 10px; */
-  box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
-}
-.sec1-texto{
-  width: 50%;
-  padding: 0px 40px 20px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14.7px;
+  justify-content: center;
 }
 
-.sec1-texto-title{
-  padding-bottom: 10px;
+.sec-image-container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-image{
+  max-height: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 1px 1px;
+   rgba(88, 88, 88, 0.295);
+}
+.sec-texto{
+  width: 50%;
+  padding: 4%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+}
+
+.sec-texto-title{
   font-size: 35px;
   color: #b68314;
 }
 
-/* fin personalizacion seccion 1 */
-
-/* seccion2 */
-.sec2 {
-  display: flex;
-  align-items: center;
-}
-.sec2-image-container{
-  width: 50%;
-}
-.sec2-image{
-  width: 90%;
-  max-height: 300px;
-  margin: 20px;
-  /* border-radius: 10px; */
-  box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
-}
-.sec2-texto{
-  width: 50%;
-  padding: 0px 40px 20px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14.5px;
-}
-.sec2-texto-title{
-  padding-bottom: 10px;
-  font-size: 35px;
-  color: #b68314;
-}
-
-/* fin seccion 2 */
-.sec3 {
-  height: 25vh;
-  background-color: rgb(207, 116, 93);
-}
-
-#sec4 {
-  font-size: 20px;
-  height: auto;
-  background-color: rgb(231, 159, 91);
-}
 
 /* Desde aca formulario de contacto */
 
@@ -163,9 +100,7 @@ textarea {
   border: 20px solid yellow;
   height: 500px;
   background-color: rgb(231, 159, 91);
-  grid-template-columns: repeat(2, 50%);
- 
-  
+  grid-template-columns: repeat(2, 50%); 
 }
 
 .adresslist {
