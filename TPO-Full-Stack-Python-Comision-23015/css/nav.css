@@ -4,7 +4,6 @@
     box-sizing: border-box;
   }
 
-
   .nav {
     background-color: #e0d56e;
     /* el display va en el padre  */
@@ -22,7 +21,8 @@
     text-decoration: none;
     padding: 30px;
     color: rgb(109, 75, 2);
-    font-size: 20px;
+    font-size: 1.5em;
+    text-align: center;
   }
   
   .nav-link:hover {
