@@ -173,3 +173,158 @@ h6 {
 }
 
 /* color: #1aab8b; */
+
+/* Para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+
+  .nav {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .nav-img {
+    height: 100%;
+    width: 20%;
+    
+  }
+  .nav-link:hover {
+    font: 0.8rem; 
+    background-color: initial;  
+    
+  }
+  .container-grid-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container-grid-main {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .contact {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .form {
+    grid-column: 1 / 2;
+  }
+
+  #name,
+  #lastn,
+  #email,
+  #location,
+  #text,
+  #Provincia,
+  #pais {
+    width: 80%;
+  }
+
+  #sub {
+    width: 70%;
+  }
+
+  .social-contact {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .social-img {
+    grid-column: 1 / 2;
+    margin-bottom: 50px;
+  }
+
+  .container-social {
+    grid-row: 5 / 6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Para pantallas medianas */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .nav {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .nav-img {
+    height: 100%;
+    width: 20%;
+  }
+  .container-grid-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact {
+    grid-column:  1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .social-contact {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .social-img {
+    grid-column: 2 / 3;
+  }
+
+  .container-social {
+    grid-row: 4 / 5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+  .container-grid-body {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .container-grid-main {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+  }
+
+  .contact {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+  }
+
+  .form {
+    grid-column: 3 / 6;
+  }
+
+  #name,
+  #lastn,
+  #email,
+  #location,
+  #text,
+  #Provincia,
+  #pais {
+    width: 500px;
+  }
+
+  #sub {
+    width: 300px;
+  }
+
+  .social-contact {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .social-img {
+    grid-column: 1 / 3;
+  }
+
+  .container-social {
+    grid-row: 5 / 6;
+  }
+}
