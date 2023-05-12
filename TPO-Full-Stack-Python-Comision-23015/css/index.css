@@ -60,9 +60,6 @@ background-color: rgb(132, 134, 226);
     justify-content: space-between;
   }
 
-  i{
-    color: white;
-  }
   .sec {
     display: flex;
     justify-content: center;
