@@ -1,8 +1,14 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
   
   }
+
+#texto {
+    font-size: 1.8em;
+    color: black;
+}
 
 .dataadress{
     display: flex;
