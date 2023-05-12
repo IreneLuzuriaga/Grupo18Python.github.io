@@ -15,3 +15,12 @@
 .container-map{
     width: 50%;
 }
+
+/* FOOTER */
+.foot {
+  grid-column: 1 / 6;
+  grid-row: 5 / 6;
+  background-color: rgb(202, 207, 197);
+  text-align: center;
+  padding: 10px;
+}
