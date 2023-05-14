@@ -8,15 +8,15 @@ Opcional: el formulario podrá enviar un email utilizando algún servicio extern
 destinado para ello.
 
 ● Utilizar al menos un Iframe, íconos de FontAwesome o Flaticon; y fuentes locales o
-bien de Google Fonts o similar. 
+bien de Google Fonts o similar. LISTO!
 
 ● Tener al menos una página totalmente responsive con 3 puntos de corte para 3
-tamaños de dispositivos distintos.
+tamaños de dispositivos distintos. LISTO!
 
 ● Incorporar al menos una animación, transformación o una transición (se deberá
-indicar en qué parte del sitio web fue incorporada la animación).
+indicar en qué parte del sitio web fue incorporada la animación). LISTO! EN LA PÁGINA PRINCIPAL!
 
-● Poseer una estructura HTML maquetada con Flexbox y/o Grid. 
+● Poseer una estructura HTML maquetada con Flexbox y/o Grid. LISTO!
 
 ● Consumir una API Rest desde JavaScript. Deberá informar la API utilizada al
 momento de entregar el TPO.
