@@ -177,7 +177,7 @@ h6 {
 /* Para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
 
-  .nav {
+  /* .nav {
     font-size: 0.8rem;
     text-align: center;
   }
@@ -190,7 +190,7 @@ h6 {
     font: 0.8rem; 
     background-color: initial;  
     
-  }
+  } */
   .container-grid-body {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -245,7 +245,7 @@ h6 {
 /* Para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   
-  .nav {
+  /* .nav {
     font-size: 0.8rem;
     text-align: center;
   }
@@ -253,7 +253,7 @@ h6 {
   .nav-img {
     height: 100%;
     width: 20%;
-  }
+  } */
   .container-grid-body {
     grid-template-columns: repeat(2, 1fr);
   }

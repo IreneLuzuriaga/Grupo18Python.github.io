@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -5,23 +6,47 @@
   
   }
 
-#texto {
-    font-size: 1.8em;
-    color: black;
+.sucur-texto{
+  height: 4em;
+  margin: 1.5em;
+  font-size: 1.7em;
+  border-radius: 0.5em;
+  font-family:'Montserrat', sans-serif; 
+  background-color: #b4cdee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .dataadress{
+    height: 15em;
     display: flex;
+    margin: 1em;
+    background-color: rgb(121, 117, 117,0.5);
 }
 
 .container-dataadress{
     width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.adresslist{
+    list-style: none;
 }
 
 .container-map{
     width: 50%;
+    background-color: #a0942d;
 }
 
+iframe{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
 /* FOOTER */
 .foot {
   grid-column: 1 / 6;
