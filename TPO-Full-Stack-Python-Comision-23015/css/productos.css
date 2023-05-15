@@ -5,22 +5,25 @@
 
 .productos {
     height: 80vh;
-    width: 95%;
+    width: 98%;
     margin: auto;
     padding: 1px;
+    border-radius: 4px;
     background-color: brown;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    justify-content:space-evenly;
-    align-content: space-evenly;
-    grid-template-areas: " pr1 pr2 pr3"
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(2,1fr);
+   /* justify-content:space-evenly;
+    align-content: space-evenly;*/
+  /*  grid-template-areas: " pr1 pr2 pr3"
                          " pr4 pr5 pr6"
-                         " pr7 pr8 pr9";
+                         " pr7 pr8 pr9";*/
+    grid-template-areas: " pr1 pr2 pr3 pr4"
+                         " pr5 pr6 pr7 pr8";
 }
 
 .pro{
-   /*  width: 90%; */
+    width: 95%;
     text-decoration: none;
   /*  text-align: center;*/
     background-color: aliceblue;
@@ -28,6 +31,8 @@
     padding: 0.5em;
 }
 
+img {
+}
 
 .pr1{
     grid-area: pr1;
@@ -39,7 +44,7 @@
 .pr2{
     grid-area: pr2;
     background-image: url("../images/producto/Panel_solar_450w_24v_mono.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -59,23 +64,33 @@
 
 .pr5{
     grid-area: pr5;
+    background-image: url("../images/producto/inversores.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .pr6{
     grid-area: pr6;
+    background-image: url("../images/producto/reguladornuevo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .pr7{
     grid-area: pr7;
+    background-image: url("../images/producto/bateria-de-ciclo-profundo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .pr8{
     grid-area: pr8;
+    background-image: url("../images/producto/sitema_de_supervisacio.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.pr9{
-    grid-area: pr9;
-}
+
 /* FOOTER */
 .foot {
   grid-column: 1 / 6;
