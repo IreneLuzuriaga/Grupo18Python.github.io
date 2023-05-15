@@ -4,41 +4,57 @@
 }
 
 .productos {
-    height: 20em;
-    width: 90%;
+    height: 80vh;
+    width: 95%;
     margin: auto;
+    padding: 1px;
     background-color: brown;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: " pr1 pr2 pr3 pr4 "
-                         " pr5 pr6 pr7 pr8 ";
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    grid-template-areas: " pr1 pr2 pr3"
+                         " pr4 pr5 pr6"
+                         " pr7 pr8 pr9";
 }
 
 .pro{
-    width: 90%;
+   /*  width: 90%; */
     text-decoration: none;
+  /*  text-align: center;*/
     background-color: aliceblue;
     margin: 1em;
     padding: 0.5em;
-    
 }
 
 
 .pr1{
     grid-area: pr1;
+    background-image: url("../images/producto/Panel_solar:policristalino_340w.png");
+    background-size: cover;
+    background-position: center left;
 }
 
 .pr2{
     grid-area: pr2;
+    background-image: url("../images/producto/Panel_solar_450w_24v_mono.jpg");
+    background-size: contain;
+    background-position: center;
 }
 
 .pr3{
     grid-area: pr3;
+    background-image: url("../images/producto/Soporte_para_panel_solar_para piso.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .pr4{
     grid-area: pr4;
+    background-image: url("../images/producto/Termo_solar_300RI_307lts.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .pr5{
@@ -57,11 +73,15 @@
     grid-area: pr8;
 }
 
+.pr9{
+    grid-area: pr9;
+}
 /* FOOTER */
 .foot {
   grid-column: 1 / 6;
   grid-row: 5 / 6;
-  background-color: rgb(202, 207, 197);
+  background-color: #e0d56e;
   text-align: center;
   padding: 10px;
 }
+
