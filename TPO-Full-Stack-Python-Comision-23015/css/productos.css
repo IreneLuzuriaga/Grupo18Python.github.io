@@ -5,95 +5,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*
-.productos {
-    height: 80vh;
-    width: 98%;
-    margin: auto;
-    padding: 1px;
-    border-radius: 4px;
-    background-color: brown;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: repeat(2,1fr);
-   /* justify-content:space-evenly;
-    align-content: space-evenly;*/
-  /*  grid-template-areas: " pr1 pr2 pr3"
-                         " pr4 pr5 pr6"
-                         " pr7 pr8 pr9";*//*
-    grid-template-areas: " pr1 pr2 pr3 pr4"
-                         " pr5 pr6 pr7 pr8";
-}
-
-
-.pro{
-    width: 95%;
-    text-decoration: none;
-
-    background-color: aliceblue;
-    margin: 1em;
-    padding: 0.5em;
-}
-
-img {
-}
-
-.pr1{
-    grid-area: pr1;
-    background-image: url("../images/producto/Panel_solar_policristalino_340w.png");
-    background-size: cover;
-    background-position: center left;
-}
-
-.pr2{
-    grid-area: pr2;
-    background-image: url("../images/producto/Panel_solar_450w_24v_mono.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr3{
-    grid-area: pr3;
-    background-image: url("../images/producto/Soporte_para_panel_solar_para piso.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr4{
-    grid-area: pr4;
-    background-image: url("../images/producto/Termo_solar_300RI_307lts.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr5{
-    grid-area: pr5;
-    background-image: url("../images/producto/inversores.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr6{
-    grid-area: pr6;
-    background-image: url("../images/producto/reguladornuevo.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr7{
-    grid-area: pr7;
-    background-image: url("../images/producto/bateria-de-ciclo-profundo.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.pr8{
-    grid-area: pr8;
-    background-image: url("../images/producto/sitema_de_supervisacio.jpg");
-    background-size: cover;
-    background-position: center;
-}*/
-
 
 }
 img {
@@ -104,29 +15,31 @@ img {
 h2 {
   margin-bottom: .5em;
   font-family:'Montserrat', sans-serif;
-  /*height: 4em;
-  margin: .5em;
+  height: 4em;
+  margin: .1em;
   font-size: 1.7em;
-  border-radius: .5em;
-
+  border-radius: 4px;
   background-color: grey;
-
   display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
-.producto {
-  height: 80 vh;
+.grid-container {
+  height: 80%;
   width: 100%;
-  margin: auto;
-  padding: 1px;
+  margin: .1em;
+  padding: 1em;
   border-radius: 4px;
   background-color: brown;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 1em;
-  margin: .5em;
+  grid-template-columns:  auto auto auto auto;
+  grid-template-rows: repeat(2,1fr);
+ /* justify-content:space-evenly;*/
+  align-content: space-evenly;
+
+  /*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+  grid-gap: .5em;
 }
 
 .location-listing {
