@@ -36,7 +36,7 @@ img {
 
 .pr1{
     grid-area: pr1;
-    background-image: url("../images/producto/Panel_solar:policristalino_340w.png");
+    background-image: url("../images/producto/Panel_solar_policristalino_340w.png");
     background-size: cover;
     background-position: center left;
 }
