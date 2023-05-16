@@ -6,7 +6,7 @@
   }
 
   .carrusel-container {
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     height: 35em;
     overflow: hidden;
   }
@@ -40,29 +40,6 @@
     background-position: center;
     background-size: cover;
   }
-  /* #carrusel-slide-1 {
-    background-image: url(../images/index/ri.png);
-  }
-
-  #carrusel-slide-2 {
-    background-image: url(../images/index/Q.png);
-  }
-
-  #carrusel-slide-3 {
-    background-image: url(../images/index/S.png);
-  } */
-
-
-  /* .carrusel-flechas {
-    height: 100%;
-    padding: 2em;
-    position: absolute;
-    top: 0em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  } */
 
   .sec {
     display: flex;
@@ -98,6 +75,7 @@
     .carrusel-container{
       display: none;
     }
+
     .sec {
       flex-direction: column;
     }
@@ -108,7 +86,7 @@
 
     .sec-texto {
       padding: 6%;
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
 
     .sec-texto-title {
@@ -167,7 +145,7 @@
     .sec-texto {
       width: 50%;
       padding: 4%;
-      font-size: 0.9em;
+      font-size: 1em;
     }
 
     .sec-texto-title {
@@ -210,7 +188,7 @@
 
 
     .sec {
-      max-height: 30em;
+      max-height: 20%;
       display: flex;
       justify-content: center;
     }
@@ -232,7 +210,7 @@
       width: 50%;
       padding: 4%;
       font-family: 'Montserrat', sans-serif;
-      font-size: 0.9em;
+      font-size: 1.4em;
     }
 
     .sec-texto-title {
@@ -242,7 +220,7 @@
 
     .cert-title {
       padding-top: 1em;
-      font-size: 1.9em;
+      font-size: 2.2em;
     }
 
     .cert-img-container {
@@ -266,86 +244,3 @@
     padding: 10px;
   }
 
-  /* personalizacion seccion1 */
-
-
-
-
-  /* Desde aca formulario de contacto */
-
-  /* .contact {
-    display: grid;
-    font-size: 30px;
-    background-color: rgb(223, 204, 145);
-    text-align: center;
-  }
-
-  .form {
-    text-align: center;
-    margin: 30%;
-    margin-top: 2%;
-    margin-bottom: 0px;
-  }
-
-  #name,
-  #lastn,
-  #email,
-  #location,
-  #text,
-  #Provincia,
-  #pais {
-    padding-top: 20%;
-    border-color: rgb(20, 72, 42);
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 1rem;
-    width: 600px;
-    background-color: rgb(245, 246, 246);
-    box-shadow: 3px 3px 2px;
-  }
-
-  textarea {
-    border-color: rgb(20, 72, 42);
-    background-color: rgb(245, 246, 246);
-    resize: none;
-  }
-
-  #sub {
-    color: white;
-    font-weight: 600;
-    padding-top: 20%;
-    border-color: rgb(0, 0, 0);
-    border-radius: 10px;
-    background-color: rgb(158, 97, 41);
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 1rem;
-    width: 300px;
-    box-shadow: 2px 2px 2px hwb(0 0% 100% / 0.415);
-  }
-
-  ::placeholder {
-    padding-left: 3%;
-  } */
-
-  /* Aca termina el formulario de contacto */
-
-  /* .dataAdress {
-    display: grid;
-    border: 20px solid yellow;
-    height: 500px;
-    background-color: rgb(231, 159, 91);
-    grid-template-columns: repeat(2, 50%);
-  }
-
-  .adresslist {
-    list-style: none;
-  }
-
-  .container {
-    margin: 0 10%;
-  }
-
-  .productos {
-    background-color: rgb(223, 204, 145);
-  } */
