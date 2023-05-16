@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 *{
@@ -24,10 +25,6 @@
                          " pr5 pr6 pr7 pr8";
 }
 
-.img {
-    width: 100%;
-    height: auto;
-}
 
 .pro{
     width: 95%;
@@ -101,19 +98,37 @@ img {
 }
 img {
   width: 100%;
-  height: auto;
+  height: 30px;
 }
+
 h2 {
   margin-bottom: .5em;
+  font-family:'Montserrat', sans-serif;
+  /*height: 4em;
+  margin: .5em;
+  font-size: 1.7em;
+  border-radius: .5em;
+
+  background-color: grey;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
-.grid-container {
+
+.producto {
+  height: 80 vh;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  border-radius: 4px;
+  background-color: brown;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
+  margin: .5em;
 }
 
-
-/* hover styles */
 .location-listing {
   position: relative;
 }
@@ -143,8 +158,6 @@ h2 {
   transition: opacity .5s;
   background: rgba(90,0,10,0.4);
   color: white;
-
-  /* position the text in t’ middle*/
   display: flex;
   align-items: center;
   justify-content: center;
