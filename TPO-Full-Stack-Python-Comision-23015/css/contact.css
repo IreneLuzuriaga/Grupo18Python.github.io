@@ -243,7 +243,7 @@ h6 {
 }
 
 /* Para pantallas medianas */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
   
   /* .nav {
     font-size: 0.8rem;
@@ -281,8 +281,27 @@ h6 {
   }
 }
 
+@media only screen and (min-width: 1100px) and (max-width: 1500px) {
+
+  #name,
+  #lastn,
+  #email,
+  #location,
+  #text,
+  #Provincia,
+  #pais {
+    width: 400px;
+  }
+
+  #sub {
+    width: 200px;
+    margin-top: 40px;
+  }
+
+}
+
 /* Para pantallas grandes */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1500px) {
   .container-grid-body {
     grid-template-columns: repeat(5, 1fr);
   }
@@ -313,6 +332,7 @@ h6 {
 
   #sub {
     width: 300px;
+    margin-top: 40px;
   }
 
   .social-contact {
@@ -326,5 +346,6 @@ h6 {
 
   .container-social {
     grid-row: 5 / 6;
+    margin-bottom: 50px;
   }
 }
