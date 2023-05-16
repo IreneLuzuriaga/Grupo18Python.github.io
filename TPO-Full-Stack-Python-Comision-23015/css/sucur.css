@@ -31,15 +31,18 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .adresslist{
     list-style: none;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .container-map{
     width: 50%;
-    background-color: #a0942d;
+    /* background-color: #a0942d; */
 }
 
 iframe{
@@ -54,4 +57,24 @@ iframe{
   background-color: #e0d56e;
   text-align: center;
   padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .adresslist{
+    list-style: none;
+    font-size: 1em;
+    text-align: center;
+}
+.sucur-texto {
+  font-size: 1rem;
+}
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 825px) {
+
+.sucur-texto {
+  font-size: 1.5rem;
+}
 }
