@@ -7,12 +7,12 @@
 }
 
 
-h2 {
+.productos-texto {
   margin-bottom: .5em;
   font-family:'Montserrat', sans-serif;
   height: 4em;
   margin: 1em;
-  font-size: 1.7em;
+  font-size: 1.5em;
   border-radius: 0.5em;
   background-color: #b4cdee;
   display: flex;
