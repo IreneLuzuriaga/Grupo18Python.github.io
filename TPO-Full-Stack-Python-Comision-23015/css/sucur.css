@@ -58,7 +58,13 @@ iframe{
     text-align: center;
     align-items: center;
     justify-content: center;
+    justify-content: flex-center;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
 /* FOOTER */
 .foot {
   grid-column: 1 / 6;
@@ -79,11 +85,18 @@ iframe{
   font-size: 1rem;
 }
 
+.temperatura{
+    font-size: 1rem;
+}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 825px) {
 
 .sucur-texto {
   font-size: 1.5rem;
+}
+
+.temperatura{
+    font-size: 1.5rem;
 }
 }
