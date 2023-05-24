@@ -12,14 +12,14 @@ for (let ciudad = 0; ciudad < ciudades.length; ciudad++) {
         .then(data => {
             var temperatura = data.main.temp - 273.15;
             var temperaturaRedond = temperatura.toFixed(2);
-            var descripcion = data.weather[0].description;
+            var icon = data.weather[0].icon;
             var name = data.name;
 
             var temp_nombre = "temperatura_" + name;
-            var desc_nombre = "descripcion_" + name;
+            var icon_nombre = "icon_" + name;
 
             document.getElementById(temp_nombre).textContent = temperaturaRedond + '°C';
-            document.getElementById(desc_nombre).textContent = descripcion;
+            document.getElementById(icon_nombre).innerHTML = `<img src="https://openweathermap.org/img/w/${icon}.png" alt="Icono del clima">`;
 
         })
         .catch(error => {
