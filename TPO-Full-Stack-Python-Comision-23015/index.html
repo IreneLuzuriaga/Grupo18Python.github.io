@@ -8,103 +8,104 @@
     <script src="https://kit.fontawesome.com/30af80c825.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/nav.css">
+    
     <!-- Favicon -->
-    <link rel="icon" type="image.png" href="images/index/favicon.png"/>
+    <link rel="icon" type="image.png" href="images/index/favicon.png" />
     <title>Solar Energy</title>
 </head>
 
 <body>
+    <header>
+        <div><img class="nav-img" src="./images/logo/3.png" alt="imagen_principal"></div>
+            
+            <nav id="nav">
+                <ul class="barra-list">
+                    <li class="barra-list-item"><a class="nav-link" href="index.html">Sobre Nosotros</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="produc.html">Nuestros productos</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="sucur.html">Sucursales</a></li>
+                </ul>
+            </nav>
+            <div class="barra-item">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>   
+    </header>
+    
 
-<header>
-
-    <nav class="nav">
-        <a href="barra" class="barra-item"><i class="fa-solid fa-bars fa-xl"></i></a>
-        <img class="nav-img" src="./images/logo/3.png" alt="imagen_principal">
-        <div class="nav-link-container">
-            <a class="nav-link" href="index.html">Sobre Nosotros</a>
-            <a class="nav-link" href="produc.html">Nuestros productos</a>
-            <a class="nav-link" href="contact.html">Contacto</a>
-            <a class="nav-link" href="sucur.html">Sucursales</a>
+    <div class="carrusel-container">
+        <div class="carrusel-item">
+            <div class="carrusel-slides" id="carrusel-slide-1"></div>
+            <div class="carrusel-flechas">
+                <a href="#carrusel-slide-3"><i class="fa-solid fa-caret-left"></i></a>
+                <a href="#carrusel-slide-2"><i class="fa-solid fa-caret-right"></i></a>
+            </div>
         </div>
-    </nav>
-
-
-</header>
-
-
-<div class="carrusel-container">
-    <div class="carrusel-item">
-        <div class="carrusel-slides" id="carrusel-slide-1"></div>
-        <div class="carrusel-flechas">
-            <a href="#carrusel-slide-3"><i class="fa-solid fa-caret-left"></i></a>
-            <a href="#carrusel-slide-2"><i class="fa-solid fa-caret-right"></i></a>
+        <div class="carrusel-item">
+            <div class="carrusel-slides" id="carrusel-slide-2"></div>
+            <div class="carrusel-flechas">
+                <a href="#carrusel-slide-1"><i class="fa-solid fa-caret-left"></i></a>
+                <a href="#carrusel-slide-3"><i class="fa-solid fa-caret-right"></i></a>
+            </div>
+        </div>
+        <div class="carrusel-item">
+            <div class="carrusel-slides" id="carrusel-slide-3"></div>
+            <div class="carrusel-flechas">
+                <a href="#carrusel-slide-2"><i class="fa-solid fa-caret-left"></i></a>
+                <a href="#carrusel-slide-1"><i class="fa-solid fa-caret-right"></i></a>
+            </div>
         </div>
     </div>
-    <div class="carrusel-item">
-        <div class="carrusel-slides" id="carrusel-slide-2"></div>
-        <div class="carrusel-flechas">
-            <a href="#carrusel-slide-1"><i class="fa-solid fa-caret-left"></i></a>
-            <a href="#carrusel-slide-3"><i class="fa-solid fa-caret-right"></i></a>
-        </div>
-    </div>
-    <div class="carrusel-item">
-        <div class="carrusel-slides" id="carrusel-slide-3"></div>
-        <div class="carrusel-flechas">
-            <a href="#carrusel-slide-2"><i class="fa-solid fa-caret-left"></i></a>
-            <a href="#carrusel-slide-1"><i class="fa-solid fa-caret-right"></i></a>
-        </div>
-    </div>
-</div>
 
-<section class="sec">
-    <div class="sec-image-container">
-        <img class="sec-image" src="./images/index/R.png">
-    </div>
-    <div class="sec-texto">
-        <h2 class="sec-texto-title">Lo que hacemos</h2>
-        <hr>
+    <section class="sec">
+        <div class="sec-image-container">
+            <img class="sec-image" src="./images/index/R.png">
+        </div>
+        <div class="sec-texto">
+            <h2 class="sec-texto-title">Lo que hacemos</h2>
+            <hr>
+            <br>
+            <p>Somos una empresa con más de 50 sucursales en Europa y América que prontamente abrirá la
+                primer sucursal en Azerbaiján siendo esto un gran paso para comenzar nuestra expansión por el
+                giagante asiático. Con un excelente equipo de técnicos, ingenieros e investigadores, desarrollando
+                e implementando nuestros productos en uno de los mercados con mas crecimiento en los ultimos años,
+                somos una de las empresas mejor posicionadas en el mercado, cuya mejor cualidad es una muy buena
+                relacion calidad-precio.
+            </p>
+        </div>
+    </section>
+
+    <section class="sec">
+        <div class="sec-texto">
+            <h2 class="sec-texto-title">Nuestra misión</h2>
+            <hr>
+            <br>
+            <p>Sabemos que en el mundo, cada vez más, es necesaria la implementacion y uso de fuentes de
+                energías sustentables, no contaminantes y adaptables a empresas y familias.
+                El cambio climático, el agotamiento de fuentes de energía no renovables y el alto costo de
+                instalación de centrales eléctricas son unas de las razones por las que creemos que la energía solar
+                es un alternativa confiable para contribuir al cuidado del medio ambiente.
+                Por eso nuestra misión es seguir expandiendonos a nivel global, y avanzar en la investigación de
+                nuevos productos mas eficientes y económicos para que más gente pueda acceder a ellos.
+            </p>
+        </div>
+        <div class="sec-image-container">
+            <img class="sec-image" src="./images/index/panel1.jpg">
+        </div>
+    </section>
+
+
+    <section class="certificaciones">
+        <h1 class="cert-title">Certificaciones</h1>
         <br>
-        <p>Somos una empresa con más de 50 sucursales en Europa y América que prontamente abrirá la
-            primer sucursal en Azerbaiján siendo esto un gran paso para comenzar nuestra expansión por el
-            giagante asiático. Con un excelente equipo de técnicos, ingenieros e investigadores, desarrollando
-            e implementando nuestros productos en uno de los mercados con mas crecimiento en los ultimos años,
-            somos una de las empresas mejor posicionadas en el mercado, cuya mejor cualidad es una muy buena
-            relacion calidad-precio.
-        </p>
-    </div>
-</section>
+        <div class="cert-img-container">
+            <img class="cert-img" id="img1" src="images/certificaciones/c1.jpg">
+            <img class="cert-img" id="img2" src="images/certificaciones/c2.jpg">
+            <img class="cert-img" id="img3" src="images/certificaciones/c3.jpg">
+        </div>
 
-<section class="sec">
-    <div class="sec-texto">
-        <h2 class="sec-texto-title">Nuestra misión</h2>
-        <hr>
-        <br>
-        <p>Sabemos que en el mundo, cada vez más, es necesaria la implementacion y uso de fuentes de
-            energías sustentables, no contaminantes y adaptables a empresas y familias.
-            El cambio climático, el agotamiento de fuentes de energía no renovables y el alto costo de
-            instalación de centrales eléctricas son unas de las razones por las que creemos que la energía solar
-            es un alternativa confiable para contribuir al cuidado del medio ambiente.
-            Por eso nuestra misión es seguir expandiendonos a nivel global, y avanzar en la investigación de
-            nuevos productos mas eficientes y económicos para que más gente pueda acceder a ellos.
-        </p>
-    </div>
-    <div class="sec-image-container">
-        <img class="sec-image" src="./images/index/panel1.jpg">
-    </div>
-</section>
+    </section>
 
-
-<section class="certificaciones">
-    <h1 class="cert-title">Certificaciones</h1>
-    <br>
-    <div class="cert-img-container">
-        <img class="cert-img" id="img1" src="images/certificaciones/c1.jpg">
-        <img class="cert-img" id="img2" src="images/certificaciones/c2.jpg">
-        <img class="cert-img" id="img3" src="images/certificaciones/c3.jpg">
-    </div>
-
-</section>
-
+    <script src="./js/bar_button.js"></script>
 
 </body>
 

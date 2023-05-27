@@ -1,194 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/nav.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="icon" type="images/jpg" href="images/favicon.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script
-      src="https://kit.fontawesome.com/f5375e9a89.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpg" href="./images/index/favicon.png" />
-    <title>Solar Energy</title>
-  </head>
-  
-  <body>
-    <header>
-      <nav class="nav">
-        <a href="" class="barra-item"><i class="fa-solid fa-bars fa-xl"></i></a>
-        <img
-          class="nav-img"
-          src="images/logo/3.png"
-          alt="imagen_principal"
-        />
-        <div class="nav-link-container">
-          <a class="nav-link" href="index.html">Sobre Nosotros</a>
-          <a class="nav-link" href="produc.html">Nuestros productos</a>
-          <a class="nav-link" href="contact.html">Contacto</a>
-          <a class="nav-link" href="sucur.html">Sucursales</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/nav.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <link rel="icon" type="images/jpg" href="images/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/f5375e9a89.js" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpg" href="./images/index/favicon.png" />
+  <title>Solar Energy</title>
+</head>
+
+<body>
+  <header>
+    <div><img class="nav-img" src="./images/logo/3.png" alt="imagen_principal"></div>
+    <nav id="nav">
+        <ul class="barra-list">
+            <li class="barra-list-item"><a class="nav-link" href="index.html">Sobre Nosotros</a></li>
+            <li class="barra-list-item"><a class="nav-link" href="produc.html">Nuestros productos</a></li>
+            <li class="barra-list-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+            <li class="barra-list-item"><a class="nav-link" href="sucur.html">Sucursales</a></li>
+        </ul>
+    </nav>
+    <div class="barra-item">
+        <i class="fa-solid fa-bars fa-xl"></i>
+    </div>   
+</header>
+  <div class="container-grid-body">
+    <main class="container-grid-main">
+      <section class="contact">
+        <div class="container-form">
+          <form action="" class="form">
+            <div class="title-contact">
+              <h1>CONTACTO</h1>
+            </div>
+            <label for="">
+              <h6>Lo contactaremos a la brevedad</h6>
+            </label>
+            <br />
+            <div class="formula">
+              <div>
+                <input type="text" maxlength="30" id="name" placeholder="Nombre" required />
+              </div>
+              <div>
+                <input type="text" name="" id="lastn" placeholder="Apellido" required />
+              </div>
+              <div>
+                <input type="email" name="" id="email" placeholder="Correo, Ej: ejemplo@ejem.com" />
+              </div>
+              <div>
+                <input type="Pais" name="" id="pais" placeholder="Pais" required />
+              </div>
+              <div>
+                <input type="Provincia" name="" id="Provincia" placeholder="Provincia" required />
+              </div>
+              <div>
+                <input type="text" name="" id="location" placeholder="Localidad" required />
+              </div>
+              <div>
+                <textarea name="Comentarios:" id="text" cols="60" rows="10" placeholder="Escribe aqui tu mensaje "
+                  required maxlength="1000"></textarea>
+              </div>
+              <div>
+                <input type="submit" onclick="return validaEmail()" name="" id="sub" />
+              </div>
+            </div>
+          </form>
         </div>
-      </nav>
-    </header>
-    <div class="container-grid-body">
-      <main class="container-grid-main">
-        <section class="contact">
-          <div class="container-form">
-            <form action="" class="form">
-              <div class="title-contact">
-                <h1>CONTACTO</h1>
-              </div>
-              <label for=""><h6>Lo contactaremos a la brevedad</h6></label>
-              <br />
-              <div class="formula">
-                <div>
-                  <input
-                    type="text"
-                    maxlength="30"
-                    id="name"
-                    placeholder="Nombre"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="lastn"
-                    placeholder="Apellido"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    name=""
-                    id="email"
-                    placeholder="Correo, Ej: ejemplo@ejem.com"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="Pais"
-                    name=""
-                    id="pais"
-                    placeholder="Pais"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="Provincia"
-                    name=""
-                    id="Provincia"
-                    placeholder="Provincia"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="location"
-                    placeholder="Localidad"
-                    required
-                  />
-                </div>
-                <div>
-                  <textarea
-                    name="Comentarios:"
-                    id="text"
-                    cols="60"
-                    rows="10"
-                    placeholder="Escribe aqui tu mensaje "
-                    required
-                    maxlength="1000"
-                  ></textarea>
-                </div>
-                <div>
-                  <input
-                    type="submit"
-                    onclick="return validaEmail()"
-                    name=""
-                    id="sub"
-                  />
-                </div>
-              </div>
-            </form>
+      </section>
+      <section class="social-contact">
+        <div class="social">
+          <div class="social-net">
+            <h1 class="social-tittle">
+              SEGUINOS EN NUESTRAS REDES SOCIALES!!
+            </h1>
+            <br />
+            <p class="social-text">
+              Te invitamos a seguirnos en nuestras redes sociales para estar
+              al tanto de las novedades, actividades y todos nuestros
+              servicios que continuamente estamos mejorando pensando en vos y
+              tu familia.
+            </p>
+            <br />
           </div>
-        </section>
-        <section class="social-contact">
-          <div class="social">
-            <div class="social-net">
-              <h1 class="social-tittle">
-                SEGUINOS EN NUESTRAS REDES SOCIALES!!
-              </h1>
-              <br />
-              <p class="social-text">
-                Te invitamos a seguirnos en nuestras redes sociales para estar
-                al tanto de las novedades, actividades y todos nuestros
-                servicios que continuamente estamos mejorando pensando en vos y
-                tu familia.
-              </p>
-              <br />
-            </div>
-            <div class="social-img">
-              <img src="./images/EnergiaComun.png" alt="" />
-            </div>
-            <div class="container-social">
-              <a
-                class="face"
-                href="http://www.instagram.com"
-                title="Instagram"
-                target="_blank"
-                ><i
-                  class="fa-brands fa-instagram fa-2xl"
-                  style="color: #1aab8b"
-                ></i
-              ></a>
-              <a href="http://www.facebook.com" title="Facebook" target="_blank"
-                ><i
-                  class="fa-brands fa-facebook fa-2xl"
-                  style="color: #1aab8b"
-                ></i
-              ></a>
-              <a href="http://www.twitter.com" title="Twitter" target="_blank"
-                ><i
-                  class="fa-brands fa-twitter fa-2xl"
-                  style="color: #1aab8b"
-                ></i
-              ></a>
-              <a href="http://www.linkedin.com" title="Linkedin" target="_blank"
-                ><i
-                  class="fa-brands fa-linkedin fa-2xl"
-                  style="color: #1aab8b"
-                ></i
-              ></a>
-              <a
-                href="mailto:contacto@solarenergy.com.ar?Subject=Contacto%20Web"
-                title="Correo"
-                target="_blank"
-                ><i
-                  class="fa-regular fa-envelope fa-2xl"
-                  style="color: #1aab8b"
-                ></i
-              ></a>
-            </div>
+          <div class="social-img">
+            <img src="./images/EnergiaComun.png" alt="" />
           </div>
-        </section>
-      </main>
-      <footer class="foot">
-        <i>Intentando hacer un mundo mejor a cada paso</i>
-        <br />
-        <i>Codo a Codo - Comisión 23015 - Derechos Reservados 2023 ©</i>
-        <br />
-      </footer>
-    </div>
-    <script src="./js/validate.js"></script>
-  </body>
+          <div class="container-social">
+            <a class="face" href="http://www.instagram.com" title="Instagram" target="_blank"><i
+                class="fa-brands fa-instagram fa-2xl" style="color: #1aab8b"></i></a>
+            <a href="http://www.facebook.com" title="Facebook" target="_blank"><i class="fa-brands fa-facebook fa-2xl"
+                style="color: #1aab8b"></i></a>
+            <a href="http://www.twitter.com" title="Twitter" target="_blank"><i class="fa-brands fa-twitter fa-2xl"
+                style="color: #1aab8b"></i></a>
+            <a href="http://www.linkedin.com" title="Linkedin" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"
+                style="color: #1aab8b"></i></a>
+            <a href="mailto:contacto@solarenergy.com.ar?Subject=Contacto%20Web" title="Correo" target="_blank"><i
+                class="fa-regular fa-envelope fa-2xl" style="color: #1aab8b"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <i>Intentando hacer un mundo mejor a cada paso</i>
+      <br />
+      <i>Codo a Codo - Comisión 23015 - Derechos Reservados 2023 ©</i>
+      <br />
+    </footer>
+  </div>
+  <script src="./js/validate.js"></script>
+  <script src="./js/bar_button.js"></script>
+</body>
+
 </html>

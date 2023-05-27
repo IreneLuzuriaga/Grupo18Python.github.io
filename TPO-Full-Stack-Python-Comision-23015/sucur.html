@@ -8,23 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/sucur.css">
+    <script src="https://kit.fontawesome.com/30af80c825.js" crossorigin="anonymous"></script>
     <link rel="icon" type="images/jpg" href="images/index/favicon.png">
     <title>Solar Energy</title>
 
 </head>
 
 <body>
-<header>
-    <nav class="nav">
-        <a href="#" class="barra-item"><i class="fa-solid fa-bars fa-xl"></i></a>
-        <img class="nav-img" src="./images/logo/3.png" alt="imagen_principal">
-        <div class="nav-link-container">
-            <a class="nav-link" href="index.html">Sobre Nosotros</a>
-            <a class="nav-link" href="produc.html">Nuestros productos</a>
-            <a class="nav-link" href="contact.html">Contacto</a>
-            <a class="nav-link" href="sucur.html">Sucursales</a>
-        </div>
-    </nav>
+    <header>
+        <div><img class="nav-img" src="./images/logo/3.png" alt="imagen_principal"></div>
+        <nav id="nav">
+            <ul class="barra-list">
+                <li class="barra-list-item"><a class="nav-link" href="index.html">Sobre Nosotros</a></li>
+                <li class="barra-list-item"><a class="nav-link" href="produc.html">Nuestros productos</a></li>
+                <li class="barra-list-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                <li class="barra-list-item"><a class="nav-link" href="sucur.html">Sucursales</a></li>
+            </ul>
+        </nav>
+        <div class="barra-item">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </div>   
 </header>
 <main>
 
@@ -154,6 +157,7 @@
     </section>
 </main>
 
+<script src="./js/bar_button.js"></script>
 <script src="./js/api.js"></script>
 
 </body>
