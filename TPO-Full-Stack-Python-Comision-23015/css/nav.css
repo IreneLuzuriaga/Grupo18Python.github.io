@@ -53,7 +53,7 @@ header {
   height: 11.25em !important;
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
 
   header {
     height: 4.2em;
@@ -72,7 +72,7 @@ header {
   #nav {
     background-color: rgb(193, 198, 54);
     position: absolute;
-    top: 60px;
+    top: 3.75em;
     left: 0;
     width: 100%;
     height: 0;
@@ -87,7 +87,7 @@ header {
   }
 
   .nav-link {
-    font-size: 20px;
+    font-size: 1.25em;
     padding: 0.5em 0.8em;
     /* border-bottom: 1px solid rgb(183, 151, 24); */
     width: 100%;
@@ -99,7 +99,7 @@ header {
 
 }
 
-@media (min-width:768px) and (max-width:1200px) {
+@media (min-width:768px) and (max-width:1500px) {
 
   header {
     height: 6em;
@@ -118,7 +118,7 @@ header {
 }
 
 
-@media (min-width:1200px) {
+@media (min-width:1500px) {
 
   header {
     height: 7em;

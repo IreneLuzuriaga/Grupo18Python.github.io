@@ -49,6 +49,8 @@
     100% {
       background-image: url(../images/index/ri.png);
     }
+
+
   }
 
   #carrusel-slide-1,
@@ -134,7 +136,7 @@
   }
 
 
-  @media (min-width:768px) and (max-width:1200px) {
+  @media (min-width:768px) and (max-width:1500px) {
 
     .carrusel-container {
       display: none;
@@ -195,7 +197,7 @@
   }
 
 
-  @media (min-width:1200px) {
+  @media (min-width:1500px) {
 
 
     .sec {
