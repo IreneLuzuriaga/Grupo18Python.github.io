@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.productos-texto {
+  margin-bottom: .5em;
+  font-family:'Montserrat', sans-serif;
+  height: 4em;
+  margin: 1em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  background-color: #b4cdee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  height: 80%;
+  width: 100%;
+  padding: 1em;
+  border-radius: 4px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns:  auto auto auto auto;
+  grid-template-rows: repeat(2,1fr);
+  align-content: space-evenly;
+  grid-gap: .5em;
+}
+
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+  max-width: 100%;
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+
+/* FOOTER */
+.foot {
+  grid-column: 1 / 6;
+  grid-row: 5 / 6;
+  background-color: #e0d56e;
+  text-align: center;
+  padding: 10px;
+}
+

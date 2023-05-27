@@ -1,0 +1,252 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  .carrusel-container {
+    border: 0.5em solid rgb(255, 255, 255);
+    height: 35em;
+    overflow: hidden;
+  }
+
+  .carrusel-item {
+    position: relative;
+    background-color: rgb(214, 74, 10);
+    height: 100%;
+
+  }
+
+  .carrusel-slides {
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    color: white;
+    animation-name: cambiarslide;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes cambiarslide {
+    0% {
+      background-image: url(../images/index/ri.png);
+    }
+
+    50% {
+      background-image: url(../images/index/Q.png);
+    }
+
+    100% {
+      background-image: url(../images/index/S.png);
+    }
+  }
+
+  #carrusel-slide-1,
+  #carrusel-slide-2,
+  #carrusel-slide-3 {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec-texto {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .certificaciones {
+    background-color: rgb(78, 78, 187);
+    width: 100%;
+  }
+
+
+  .cert-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+
+  .cert-img {
+    border: 0.2em solid black;
+  }
+
+
+  @media (max-width:768px) {
+    .carrusel-container {
+      display: none;
+    }
+
+    .sec {
+      flex-direction: column;
+    }
+
+    .sec-image-container {
+      display: none;
+    }
+
+    .sec-texto {
+      padding: 6%;
+      font-size: 0.9em;
+    }
+
+    .sec-texto-title {
+      font-size: 2.18em;
+      color: #b68314;
+    }
+
+    .certificaciones {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cert-title {
+      padding-top: 1em;
+      font-size: 1.9em;
+    }
+
+    .cert-img-container {
+      width: 45%;
+      margin: auto;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+
+    .cert-img {
+      width: 100%;
+      margin: auto;
+    }
+
+  }
+
+
+  @media (min-width:768px) and (max-width:1200px) {
+
+    .carrusel-container {
+      display: none;
+    }
+
+    .sec-image-container {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sec-image {
+      width: 90%;
+      height: 85%;
+      margin: 2em;
+      box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
+    }
+
+    .sec-texto {
+      width: 50%;
+      padding: 4%;
+      font-size: 1em;
+    }
+
+    .sec-texto-title {
+      font-size: 2.18em;
+      color: #b68314;
+    }
+
+    .certificaciones {
+      padding-bottom: 1em;
+      padding-top: 1em;
+    }
+
+    .cert-img-container {
+      width: 75%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: " img1 img2"
+        " img3 img3";
+      justify-items: center;
+    }
+
+    #img1 {
+      grid-area: img1;
+    }
+
+    #img2 {
+      grid-area: img2;
+    }
+
+    #img3 {
+      grid-area: img3;
+    }
+
+  }
+
+
+  @media (min-width:1200px) {
+
+
+    .sec {
+      max-height: 20%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sec-image-container {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sec-image {
+      width: 90%;
+      height: 85%;
+      margin: 2em;
+      box-shadow: 5px 5px 1px 1px rgba(88, 88, 88, 0.295);
+    }
+
+    .sec-texto {
+      width: 50%;
+      padding: 4%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4em;
+    }
+
+    .sec-texto-title {
+      font-size: 2.18em;
+      color: #b68314;
+    }
+
+    .cert-title {
+      padding-top: 1em;
+      font-size: 2.2em;
+    }
+
+    .cert-img-container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1em;
+    }
+
+    .cert-img {
+      margin: 1em;
+    }
+
+  }
+
+  /* FOOTER */
+  .foot {
+    grid-column: 1 / 6;
+    grid-row: 5 / 6;
+    background-color: #e0d56e;
+    text-align: center;
+    padding: 10px;
+  }
