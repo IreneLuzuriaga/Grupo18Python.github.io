@@ -38,12 +38,16 @@
       background-image: url(../images/index/ri.png);
     }
 
-    50% {
+    33.3% {
       background-image: url(../images/index/Q.png);
     }
 
-    100% {
+    66.6% {
       background-image: url(../images/index/S.png);
+    }
+ 
+    100% {
+      background-image: url(../images/index/ri.png);
     }
   }
 
