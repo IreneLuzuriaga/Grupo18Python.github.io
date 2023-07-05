@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
+{% extends "padre.html" %}
 
-<head>
+{% load static %}
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/sucur.css">
-    <script src="https://kit.fontawesome.com/30af80c825.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="images/jpg" href="images/index/favicon.png">
-    <title>Solar Energy</title>
-
-</head>
-
-<body>
-    <header>
-        <div><img class="nav-img" src="./images/logo/3.png" alt="imagen_principal"></div>
-        <nav id="nav">
-            <ul class="barra-list">
-                <li class="barra-list-item"><a class="nav-link" href="index.html">Sobre Nosotros</a></li>
-                <li class="barra-list-item"><a class="nav-link" href="produc.html">Nuestros productos</a></li>
-                <li class="barra-list-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                <li class="barra-list-item"><a class="nav-link" href="sucur.html">Sucursales</a></li>
-            </ul>
-        </nav>
-        <div class="barra-item">
-            <i class="fa-solid fa-bars fa-xl"></i>
-        </div>   
-</header>
+{% block content %}
 <main>
 
     <div class="sucur-texto">
@@ -156,17 +130,5 @@
         </div>
     </section>
 </main>
-
-<script src="./js/bar_button.js"></script>
-<script src="./js/api.js"></script>
-
-</body>
-
-<footer class="foot">
-    <i>Intentando hacer un mundo mejor a cada paso</i>
-    <br>
-    <i>Codo a Codo - Comisión 23015 - Derechos Reservados 2023 ©</i>
-    <br>
-</footer>
-
-</html>
+<script src="{% static './js/api.js' %}"></script>
+{% endblock %}

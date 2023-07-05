@@ -1,0 +1,55 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/30af80c825.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static './css/index.css' %}"/>
+    <link rel="stylesheet" href="{% static './css/nav.css' %}"/>
+    <link rel="stylesheet" href="{% static './css/sucur.css' %}">
+    <link rel="stylesheet" href="{% static './css/productos.css' %}">
+    <link rel="stylesheet" href="{% static './css/contact.css' %}" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image.png" href="{% static './images/index/favicon.png' %}" />
+    <title>Solar Energy</title>
+</head>
+
+<body>
+    <header>
+        <div><img class="nav-img" src="{% static './images/logo/3.png' %}" alt="imagen_principal"></div>
+            <nav id="nav">
+                <ul class="barra-list">
+                    <li class="barra-list-item"><a class="nav-link" href="{% url 'index_page' %}">Sobre Nosotros</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="{% url 'producto' %}">Nuestros productos</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="{% url 'contacto' %}">Contacto</a></li>
+                    <li class="barra-list-item"><a class="nav-link" href="{% url 'sucursales' %}">Sucursales</a></li>
+                </ul>
+            </nav>
+            <div class="barra-item">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+ <script src="{% static './js/bar_button.js' %}"></script>
+
+</body>
+
+
+<footer class="foot">
+    <i>Intentando hacer un mundo mejor a cada paso</i>
+    <br>
+    <i>Codo a Codo - Comisión 23015 - Derechos Reservados 2023 ©</i>
+    <br>
+</footer>
+
+</html>

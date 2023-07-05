@@ -1,0 +1,84 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+
+    {% block content %}
+
+    <main>
+        <div class="productos-texto">
+            <h1>Nuestros Productos</h1>
+        </div>
+
+
+        <section class="grid-container">
+            <article id="1" class="location-listing">
+                <a class="location-title" href="#">Panel Solar </a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/Panel_solar_policristalino_340w.png' %}"
+                            alt="Panel Solar"> </a>
+                </div>
+            </article>
+
+            <article id="2" class="location-listing">
+                <a class="location-title" href="#">Inversores </a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/inversores.jpg' %}" alt="inversores"></a>
+                </div>
+            </article>
+
+            <article id="3" class="location-listing">
+                <a class="location-title" href="#">Bateria </a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/bateria-de-ciclo-profundo.jpg' %}"
+                            alt="bateria"> </a>
+                </div>
+            </article>
+
+            <article id="4" class="location-listing">
+                <a class="location-title" href="#">Panel Solar Mono </a>
+                <div class="location-image">
+                    <a href="#"><img width="400" height="265" src="{% static 'images/producto/Panel_solar_450w_24v_mono.jpg' %}"
+                            alt="panel solar mono">
+                    </a>
+                </div>
+            </article>
+
+            <article id="5" class="location-listing">
+                <a class="location-title" href="#">Regulador </a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/reguladornuevo.png' %}" alt="regulador">
+                    </a>
+                </div>
+            </article>
+
+            <article id="6" class="location-listing">
+                <a class="location-title" href="#">Soporte de piso</a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265"
+                            src="{% static 'images/producto/Soporte_para_panel_solar_para piso.jpg' %}" alt="Soporte Piso">
+                    </a>
+                </div>
+            </article>
+
+            <article id="7" class="location-listing">
+                <a class="location-title" href="#">Sistema supervisador</a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/sitema_de_supervisacio.jpg' %}"
+                            alt="sistema supervisado">
+                    </a>
+                </div>
+            </article>
+
+            <article id="8" class="location-listing">
+                <a class="location-title" href="#">Termo Solar</a>
+                <div class="location-image">
+                    <a href="#"><img width="403" height="265" src="{% static 'images/producto/Termo_solar_300RI_307lts.jpg' %}"
+                            alt="termo solar">
+                    </a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+    {% endblock %}

@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
+{% extends "padre.html" %}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/nav.css" />
-  <link rel="stylesheet" href="./css/contact.css" />
-  <link rel="icon" type="images/jpg" href="images/favicon.jpg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <script src="https://kit.fontawesome.com/f5375e9a89.js" crossorigin="anonymous"></script>
-  <!-- Favicon -->
-  <link rel="icon" type="image/jpg" href="./images/index/favicon.png" />
-  <title>Solar Energy</title>
-</head>
+{% load static %}
 
-<body>
-  <header>
-    <div><img class="nav-img" src="./images/logo/3.png" alt="imagen_principal"></div>
-    <nav id="nav">
-        <ul class="barra-list">
-            <li class="barra-list-item"><a class="nav-link" href="index.html">Sobre Nosotros</a></li>
-            <li class="barra-list-item"><a class="nav-link" href="produc.html">Nuestros productos</a></li>
-            <li class="barra-list-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-            <li class="barra-list-item"><a class="nav-link" href="sucur.html">Sucursales</a></li>
-        </ul>
-    </nav>
-    <div class="barra-item">
-        <i class="fa-solid fa-bars fa-xl"></i>
-    </div>   
-</header>
+  {% block content %}
   <div class="container-grid-body">
     <main class="container-grid-main">
       <section class="contact">
@@ -89,7 +61,7 @@
             <br />
           </div>
           <div class="social-img">
-            <img src="./images/EnergiaComun.png" alt="" />
+            <img src="{% static './images/EnergiaComun.png' %}" alt="" />
           </div>
           <div class="container-social">
             <a class="face" href="http://www.instagram.com" title="Instagram" target="_blank"><i
@@ -106,15 +78,5 @@
         </div>
       </section>
     </main>
-    <footer class="foot">
-      <i>Intentando hacer un mundo mejor a cada paso</i>
-      <br />
-      <i>Codo a Codo - Comisión 23015 - Derechos Reservados 2023 ©</i>
-      <br />
-    </footer>
-  </div>
-  <script src="./js/validate.js"></script>
-  <script src="./js/bar_button.js"></script>
-</body>
-
-</html>
+   <script src="{% static './js/validate.js' %}"></script>
+    {% endblock %}
